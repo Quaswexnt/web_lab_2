@@ -1,0 +1,45 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: azure;
+    display: flex;
+    flex-direction: column; /* Ставим элементы один под другим */
+    justify-content: center; /* Центрируем элементы по вертикали */
+    align-items: center; /* Центрируем элементы по горизонтали */
+    font-size: 30px;
+    width: 100%;
+    height: 100vh; /* Используем 100vh для высоты на весь экран */
+    font-family:URW Chancery L, cursive;
+}
+
+h2 {
+    margin: 0; /* Убираем отступы у заголовка */
+    padding: 0;
+}
+
+.link-list {
+    list-style: none; /* Убираем маркеры списка */
+    display: flex; /* Выравниваем ссылки в ряд */
+    gap: 20px; /* Задаем расстояние между ссылками */
+    padding: 0;
+    margin-top: 20px; /* Устанавливаем меньший отступ между заголовком и ссылками */
+}
+
+.link-list li {
+    display: inline;
+}
+
+.link-list a {
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+    transition: color 0.3s;
+}
+
+.link-list a:hover {
+    color: blue;
+}
