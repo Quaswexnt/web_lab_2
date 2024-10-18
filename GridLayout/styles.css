@@ -88,15 +88,15 @@ a {
     align-self: end;
     height: 65.5vh;
     width: 100%;
-    display: grid; /* Устанавливаем grid */
-    justify-content: center; /* Горизонтальное выравнивание */
-    align-items: center; /* Вертикальное выравнивание */
+    display: grid;
+    justify-content: center; 
+    align-items: center; 
 }
 
 .item_5 img {
     width: 90vh;
    
-    object-fit: contain; /* Позволяет изображению сохранять пропорции внутри заданной области */
+    object-fit: contain; 
 }
 
 

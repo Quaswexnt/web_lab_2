@@ -71,15 +71,15 @@ a {
   }
 
   .item_5 {
-    text-align: center; /* Горизонтальное выравнивание */
+    text-align: center; 
     border: 1px solid black;
     height: 66.9vh;
     background-color: azure;
-    display: table-cell; /* Чтобы вертикальное выравнивание работало */
-    vertical-align: middle; /* Вертикальное выравнивание по центру */
+    display: table-cell;
+    vertical-align: middle; 
 }
 .item_5 img {
-    display: inline-block; /* Чтобы изображение центрировалось */
+    display: inline-block; 
 }
 
 .item_6 {
